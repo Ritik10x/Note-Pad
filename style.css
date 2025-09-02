@@ -1,0 +1,137 @@
+/* ===== To-Do App Container ===== */
+.main {
+  background-color: rgb(233, 225, 136);
+  width: 50%;
+  height: 300px;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 34px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* ===== Input and Add Button ===== */
+.inn {
+  width: 68%;
+  height: 35px;
+  border-radius: 13px;
+  margin-left: 40px;
+  padding-left: 10px;
+  border: 2px solid #888;
+  transition: 0.3s ease;
+}
+
+.inn:focus {
+  outline: none;
+  border-color: #6c63ff;
+  box-shadow: 0 0 6px rgba(108, 99, 255, 0.6);
+}
+
+.btnAdd {
+  width: 20%;
+  height: 35px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btnAdd:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+}
+
+/* ===== Scroll Container ===== */
+.scroll {
+  width: 90%;
+  height: 172px;
+  background-color: rgb(228, 228, 228);
+  overflow-y: auto;
+  margin: 20px auto;
+  padding: 8px;
+  border-radius: 12px;
+  box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== List Items ===== */
+.scroll ol {
+  margin: 5px 0;
+  padding: 6px;
+  background: #fff;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.scroll ol:hover {
+  background: #f0f0f0;
+  transform: scale(1.02);
+}
+
+/* ===== Toggle Buttons (ON/OFF) ===== */
+.one, .two {
+  width: 60px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.one {
+  border-radius: 20px 0 0 20px;
+  background: #ddd;
+  color: #333;
+}
+
+.two {
+  border-radius: 0 20px 20px 0;
+  background: #6c63ff;
+  color: white;
+}
+
+/* Hover Effects */
+.one:hover {
+  background: #4caf50;
+  color: white;
+}
+
+.two:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* ===== Responsive Design ===== */
+@media only screen and (max-width: 425px) {
+  .main {
+    width: 80%;
+    top: 10%;
+    left: 10%;
+  }
+
+  .inn {
+    margin-left: 5px;
+    width: 65%;
+  }
+
+  .btnAdd {
+    width: 28%;
+  }
+
+  .one, .two {
+    width: 50px;
+    height: 28px;
+  }
+}
