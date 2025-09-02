@@ -136,3 +136,13 @@ h2 {
     height: 28px !important;
   }
 }
+@media only screen and (min-width : 425px) and (max-width:1000px){
+  .inn{
+    width: 65%;
+    margin-left: 7px;
+
+  }
+  .one,.two{
+    width: 10% !important;
+  }
+}
