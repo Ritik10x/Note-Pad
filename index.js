@@ -139,6 +139,7 @@ btn2.onclick = () => {
 
 
     btn2.style.backgroundColor = 'blue'
+    btn2.style.color = 'white'
     btn1.style.color='black'
     btn1.style.backgroundColor = 'white'
     scroll.style.backgroundColor='rgb(228, 228, 228)'
