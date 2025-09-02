@@ -103,15 +103,15 @@ h2 {
 }
 
 /* Hover Effects */
-.one:hover {
+/* .one:hover {
   background: #4caf50;
-  /* color: white; */
+  color: white;
 }
 
 .two:hover {
   background: #f44336;
-  /* color: white; */
-}
+  color: white;
+} */
 
 /* ===== Responsive Design ===== */
 @media only screen and (max-width: 425px) {
