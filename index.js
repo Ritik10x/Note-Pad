@@ -122,7 +122,7 @@ btn1.onclick = () => {
 
 
     btn1.style.backgroundColor = 'red'
-    btn1.style.color = 'white'
+    // btn1.style.color = 'white'
     btn2.style.backgroundColor = 'white'
     btn2.style.color = 'black'
     scroll.style.backgroundColor= 'rgb(40, 40, 40)'
@@ -139,6 +139,7 @@ btn2.onclick = () => {
 
 
     btn2.style.backgroundColor = 'blue'
+    btn1.style.color='black'
     btn1.style.backgroundColor = 'white'
     scroll.style.backgroundColor='rgb(228, 228, 228)'
     input.style.backgroundColor='white'
