@@ -89,8 +89,8 @@ btn.onclick = () => {
 
 
 document.body.style.backgroundColor = 'white'
-
-
+ let input = document.querySelector('.inn')
+ let scroll = document.querySelector('.scroll')
 let btn1 = document.createElement('button')
 btn1.setAttribute('class', 'one')
 btn1.textContent = 'ON'
@@ -123,6 +123,10 @@ btn1.onclick = () => {
 
     btn1.style.backgroundColor = 'red'
     btn2.style.backgroundColor = 'white'
+    scroll.style.backgroundColor= 'rgb(40, 40, 40)'
+    input.style.backgroundColor='rgb(40, 40, 40)'
+    input.style.color='white'
+    
   }
 
 }
@@ -134,6 +138,9 @@ btn2.onclick = () => {
 
     btn2.style.backgroundColor = 'blue'
     btn1.style.backgroundColor = 'white'
+    scroll.style.backgroundColor='rgb(228, 228, 228)'
+    input.style.backgroundColor='white'
+    input.style.color='black'
   }
 
 
