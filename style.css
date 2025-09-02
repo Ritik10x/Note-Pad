@@ -93,13 +93,13 @@ h2 {
 .one {
   border-radius: 20px 0 0 20px;
   background: #ddd;
-  color: #333;
+/*   color: #333; */
 }
 
 .two {
   border-radius: 0 20px 20px 0;
   background: #6c63ff;
-  color: white;
+/*   color: white; */
 }
 
 /* Hover Effects */
@@ -146,3 +146,4 @@ h2 {
     width: 10% !important;
   }
 }
+
