@@ -101,6 +101,14 @@ h2 {
   background: #6c63ff;
   color: white;
 }
+/* Prevent text overflow in tasks */
+.scroll ol {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  max-width: 100%;
+}
+
 
 /* Hover Effects */
 /* .one:hover {
